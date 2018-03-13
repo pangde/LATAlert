@@ -7,7 +7,7 @@
 //
 
 #import "LATViewController.h"
-
+#import "LATPodTestNSLog.h"
 @interface LATViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    LATPodTestNSLog *lat = [[LATPodTestNSLog alloc] init];
+    [lat printWord];
 }
 
 - (void)didReceiveMemoryWarning

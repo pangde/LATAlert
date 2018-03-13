@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0991655948E439F8C8AC28B7 /* Pods_LATAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LATAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30E175CAE09D7BEAA1CB7B9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30E175CAE09D7BEAA1CB7B9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3DCF6B8979A91F6BE52641C8 /* Pods_LATAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LATAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49756E4A17648194277F373B /* Pods-LATAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LATAlert_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LATAlert_Example/Pods-LATAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		537214C0CCE160FA9259D77B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		537214C0CCE160FA9259D77B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LATAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LATAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99AB169D760F7EA35417AF0D /* Pods-LATAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LATAlert_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LATAlert_Tests/Pods-LATAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A60BE4F2FF542A1CC07A615B /* Pods-LATAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LATAlert_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LATAlert_Tests/Pods-LATAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7641E6ED7D033ABD47E43DB /* LATAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LATAlert.podspec; path = ../LATAlert.podspec; sourceTree = "<group>"; };
+		D7641E6ED7D033ABD47E43DB /* LATAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LATAlert.podspec; path = ../LATAlert.podspec; sourceTree = "<group>"; };
 		FD66FF57120B51E46ECF7E6D /* Pods-LATAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LATAlert_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LATAlert_Example/Pods-LATAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pangde;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = D628AZQX3X;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -536,6 +539,7 @@
 			baseConfigurationReference = 49756E4A17648194277F373B /* Pods-LATAlert_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D628AZQX3X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LATAlert/LATAlert-Prefix.pch";
 				INFOPLIST_FILE = "LATAlert/LATAlert-Info.plist";
@@ -551,6 +555,7 @@
 			baseConfigurationReference = FD66FF57120B51E46ECF7E6D /* Pods-LATAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D628AZQX3X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LATAlert/LATAlert-Prefix.pch";
 				INFOPLIST_FILE = "LATAlert/LATAlert-Info.plist";

@@ -1,0 +1,22 @@
+{
+  "name": "LATAlert",
+  "version": "0.1.0",
+  "summary": "A short description of LATAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pangde/LATAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pangde": "luke@jollycorp.com"
+  },
+  "source": {
+    "git": "https://github.com/pangde/LATAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LATAlert/Classes/**/*"
+}
