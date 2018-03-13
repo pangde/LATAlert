@@ -12,6 +12,7 @@
 
 - (void)printWord {
     NSLog(@"打印");
+    NSLog(@"二次更新打印");
 }
 
 @end
